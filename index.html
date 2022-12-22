@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blog by Nada Tarek</title>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<link href="style_sheet/main_style.css" type="text/css" rel="stylesheet"></link>
+<script type="text/javascript">
+    
+    function Article() {
+        document.getElementById("content").style.display = "block";
+        document.getElementById("articles").style.textDecoration = "underline";
+        document.getElementById("about").style.textDecoration = "none";
+        document.getElementById("About-me").style.display = "none";
+    }
+    function About() {
+        document.getElementById("content").style.display = "none";
+        document.getElementById("articles").style.textDecoration = "none";
+        document.getElementById("about").style.textDecoration = "underline";
+        document.getElementById("About-me").style.display = "block";
+    }
+</script>
+<body>
+    <br>
+    <div id="left-side">
+        <img src="assets/profile.jpg" alt="profile" width="80" height="80" style="border-radius: 50%;">
+        <br><br>
+        <h3 style="font-weight: 600;">Nada Tarek</h3>
+        <br>
+        <p>
+            Maker, youtuber, blogger and a
+            passionate developer who thrives 
+            on creating digital magic &#129497
+        </p>
+        <br>
+        <a href="#" title="open the page of Articles" id="articles" onclick="Article()">Articles</a><br>
+        <a href="#" title="open the page of about me" id="about" onclick="About()">About me</a><br>
+        <br><br>
+        <a href="https://www.linkedin.com/" target="_blank"><img src="assets/linkedin.png" width="35" height="35"></a>
+        <a href="https://www.github.com/" target="_blank"><img src="assets/github.png" width="35" height="35"></a>
+        <a href="https://www.twitter.com/" target="_blank"><img src="assets/twitter.png" width="35" height="35"></a>
+        <br>
+        <a href="https://www.telegram.com/" target="_blank"><img src="assets/telegram.png" width="35" height="35"></a>
+        <a href="https://mail.google.com/" target="_blank"><img src="assets/email.png" width="35" height="35"></a>
+        <a href="https://codepen.io/" target="_blank"><img src="assets/codepen.png" width="35" height="35"></a>
+        <br>
+        <a href="https://www.youtube.com/" target="_blank"><img src="assets/youtube.png" width="35" height="35"></a>
+        <br><br>
+        <small style="font-size: 15px;">&copy; All rights reserved.</small>
+    </div>
+    <section id="content">
+        <h1 style="font-size: 43px; font-weight: 500;" id="header">Web Development</h1>
+        <div id="items">
+            <img src="assets/item1.png" width="100%" height="270" style="border-radius: 20px 20px 0px 0px;"/>
+            <br>
+            <div style="float: left;width: 45%;text-align: center;">
+            <h4 style="margin-left: 10px;background-color:rgb(30, 174, 42);color:white;padding: 10px 10px;width:100%;font-size: 15px;border-radius: 30px;">WEB DEVELOPMENT</h4>
+            </div>
+            <div style="float: right;padding: 10px 10px 0 0;"><b>October 22,2022</b></div>
+            <div style="margin-left: 10px;float: left;margin-top: 15px;">
+                <a href="sessions/audio_test.html" class="linkItem" target="_blank">It is Example of audio Tag in HTML & CSS with images also</a>
+                <b id="emoji">&#127911;</b>
+            </div>
+        </div>
+        <div id="span">
+            <img src="assets/item2.png" width="100%" height="270" style="border-radius: 20px 20px 0px 0px;"/>
+            <br>
+            <div style="float: left;width: 45%;text-align: center;">
+            <h4 style="margin-left: 10px;background-color:rgb(30, 174, 42);color:white;padding: 10px 10px;width:100%;font-size: 15px;border-radius: 30px;">WEB DEVELOPMENT</h4>
+            </div>
+            <div style="float: right;padding: 10px 10px 0 0;"><b>October 25,2022</b></div>
+            <div style="margin-left: 10px;float: left;margin-top: 15px;">
+                <a href="sessions/forms_test.html" class="linkItem" target="_blank">It is aswome form Tag Example in HTML & CSS with a little magic</a>
+                <b id="emoji">&#127776;</b>
+            </div>
+        </div>
+        <div id="items">
+            <img src="assets/item3.png" width="100%" height="270" style="border-radius: 20px 20px 0px 0px;"/>
+            <br>
+            <div style="float: left;width: 45%;text-align: center;">
+            <h4 style="margin-left: 10px;background-color:rgb(30, 174, 42);color:white;padding: 10px 10px;width:100%;font-size: 15px;border-radius: 30px;">WEB DEVELOPMENT</h4>
+            </div>
+            <div style="float: right;padding: 10px 10px 0 0;"><b>October 29,2022</b></div>
+            <div style="margin-left: 10px;float: left;margin-top: 15px;">
+                <a href="sessions/lists_test.html" class="linkItem" target="_blank">Examples of All Types of lists in HTML & CSS</a>
+                <b id="emoji">&#127775;</b>
+            </div>
+        </div>
+        <div id="span">
+            <img src="assets/item4.png" width="100%" height="270" style="border-radius: 20px 20px 0px 0px;"/>
+            <br>
+            <div style="float: left;width: 45%;text-align: center;">
+            <h4 style="margin-left: 10px;background-color:rgb(30, 174, 42);color:white;padding: 10px 10px;width:100%;font-size: 15px;border-radius: 30px;">WEB DEVELOPMENT</h4>
+            </div>
+            <div style="float: right;padding: 10px 10px 0 0;"><b>November 2,2022</b></div>
+            <div style="margin-left: 10px;float: left;margin-top: 15px;">
+                <a href="sessions/video_test.html" class="linkItem" target="_blank">Example of Video Tag in HTML & CSS</a>
+                <b id="emoji">&#127909;</b>
+            </div>
+        </div>
+        <div id="items">
+            <img src="assets/img_task1.png" width="100%" height="270" style="border-radius: 20px 20px 0px 0px;"/>
+            <br>
+            <div style="float: left;width: 45%;text-align: center;">
+            <h4 style="margin-left: 10px;background-color:rgb(30, 174, 42);color:white;padding: 10px 10px;width:100%;font-size: 15px;border-radius: 30px;">WEB DEVELOPMENT</h4>
+            </div>
+            <div style="float: right;padding: 10px 10px 0 0;"><b>November 5,2022</b></div>
+            <div style="margin-left: 10px;float: left;margin-top: 15px;">
+                <a href="tasks/exercise1.html" class="linkItem" target="_blank">Solution of a Task one in my class only using HTML</a>
+                <b id="emoji">&#128214;</b>
+            </div>
+        </div>
+        <div id="span">
+            <img src="assets/img_task2.png" width="100%" height="270" style="border-radius: 20px 20px 0px 0px;"/>
+            <br>
+            <div style="float: left;width: 45%;text-align: center;">
+            <h4 style="margin-left: 10px;background-color:rgb(30, 174, 42);color:white;padding: 10px 10px;width:100%;font-size: 15px;border-radius: 30px;">WEB DEVELOPMENT</h4>
+            </div>
+            <div style="float: right;padding: 10px 10px 0 0;"><b>November 5,2022</b></div>
+            <div style="margin-left: 10px;float: left;margin-top: 15px;">
+                <a href="tasks/exercise2.html" class="linkItem" target="_blank">Solution of a Task two in my class only using HTML</a>
+                <b id="emoji">&#128211;</b>
+            </div>
+        </div>
+        <div id="prev"><button disabled>PREV</button></div>
+        <div id="next"><button>NEXT</button></div>
+    </section>
+    <div id="About-me">
+        <h1 style="font-weight: 500; font-size: 40px;">About me</h1>
+        </br></br></br>
+        <p>Hi &#128075,</p>
+        <p>I’m a frontend developer with +2 years of experience. I’m passionate about creating technology to
+        elevate people and help new developers to find the right path. Some technologies I enjoy working
+        with include:</p>
+        <br>
+        <p>Javascript, HTML, CSS, PHP, C/C++, Java, Flutter, SQL, Python.</p>
+        <br>
+        <p>Also, I created some free apps (side projects) as a way to pay-back and contribute to the
+        community:</p>
+        <br>
+        <b>Quran Tab:</b> 
+        <a href="https://chrome.google.com/webstore/" target="_blank" id="link">Chrome extension</a>
+        <br><br>
+        <b>Wazaker:</b>
+        <a href="https://apps.apple.com/" target="_blank" id="link"> iOS App </a>
+        <b> - </b>
+        <a href="https://play.google.com/" target="_blank" id="link"> Android App </a>
+    </div>
+</body>
+</html>

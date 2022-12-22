@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Examples</title>
+        <meta charset="UTF-8"  name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <style>
+            body{
+                margin: 0 auto;
+                text-align: center;
+                background-image: url(../assets/plants.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .in{
+                width: 90%;
+                padding: 5px;
+                margin: 10px;
+                margin-top: 5px;
+                font-size: 15px;
+            }
+            .info{
+                text-align: left;
+                background-color: rgb(192, 240, 164);
+                padding: 20px;
+                float: left;
+                width: 49%;
+                opacity: 0.9;
+                height: 585px;
+            }
+            .fav{
+                float: left;
+                text-align: left;
+                font-size: 23px;
+                color: white;
+                font-weight: 900;
+                width: 45%;
+                padding: 15px;
+                text-shadow: 1px 2px black;
+            }
+            #butt{
+                background-color: rgb(9, 54, 9);
+                width: 44%;
+                font-size: 25px;
+                color: white;
+                border: none;
+            }
+            #butt:hover{
+                text-decoration: underline;
+            }
+            #dis{
+                width: 48%;
+                font-size: 25px;
+            }
+            @media (max-width: 1150px){
+                .info{
+                    width: 100%;
+                }
+                .fav{
+                    width: 100%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <form class="info">
+                <b>UserName:</b><br>
+                <input type="text" placeholder="username" class="in" required/><br>
+                <b>Email:</b><br>
+                <input type="email" placeholder="Email_Example@gmail.com" class="in"/><br>
+                <b>Password:</b><br>
+                <input type="password" placeholder="*******" minlength="6" maxlength="12" class="in" required/><br>
+                <b>Birthdate:</b><br>
+                <input type="date" min="1970-1-1" max="2010-1-1" class="in" required/><br>
+                <b>Age:</b><br>
+                <input type="number" min="12" max="90" class="in" placeholder="25 years old" required/><br>
+                <b>Gender:</b><br>
+                <input type="radio" name="gender" style="margin: 15px;"/>Male
+                <input type="radio" name="gender"/>Female<br>
+                <b>Select your country:</b><br>
+                <select name="countries" class="in">
+                    <option>Egypt</option>
+                    <option>UAE</option>
+                    <option>USA</option>
+                    <option>Turkey</option>
+                    <option>Germany</option>
+                    <option>Italia</option>
+                    <option>Saudi Arabia</option>
+                </select>
+                <br>
+                <b>The range of speaking English:</b><br>
+                <input type="range" class="in" required style="margin-bottom: 0; padding: 0;"><br>
+                <b>Favorite Color:</b>
+                <input type="color" value="#009933" style="margin: 15px; width: 47%;"/><br> 
+                <input type="button" value="submit" id="butt">
+                <input type="button" value="Disabled" id="dis" disabled>
+            </form>
+        </div>
+        <div class="fav">
+            <center><h3><b>Your Favorite Programmig Language:</b></h3></center>
+            <input type="checkbox" value="l1"/><label>HTML/CSS</label><br>
+            <input type="checkbox" value="l2"/><label>JavaScript</label><br>
+            <input type="checkbox" value="l3"/><label>PHP</label><br>
+            <input type="checkbox" value="l4"/><label>C/C++</label><br>
+            <input type="checkbox" value="l5"/><label>C#</label><br>
+            <input type="checkbox" value="l6"/><label>Java</label><br>
+            <input type="checkbox" value="l7"/><label>Python</label><br>
+            <input type="checkbox" value="l8"/><label>Ruby</label><br>
+            <input type="checkbox" value="l9"/><label>Dart</label><br>
+            <input type="checkbox" value="l10"/><label>SQL</label><br>
+            <input type="checkbox" value="l11"/><label>Assembly language</label><br>
+            <input type="checkbox" value="l12"/><label>Visual Basic</label><br>
+            <input type="checkbox" value="l13"/><label>Swift</label><br>
+            <input type="checkbox" value="l14"/><label>Kotlin</label><br>
+            <input type="checkbox" value="l15"/><label>Matlab</label><br>
+            <input type="checkbox" value="l16"/><label>Scale</label><br>
+            <input type="checkbox" value="l17"/><label>Perl</label><br>
+            <input type="checkbox" value="l18"/><label>Rust</label><br>
+            <input type="checkbox" value="l19" style="margin-bottom: 10px;"/><label>PowerShell</label><br>
+        </div>
+    </body>
+</html>
